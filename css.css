@@ -1,0 +1,67 @@
+.topnav {
+  background-color: rgb(48, 48, 48);
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+
+.topnav a.active {
+  background-color: rgb(0, 255, 0);
+  color: black;
+}
+
+.text {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+body {
+  font-family: Consolas;
+  background-color: black;
+}
+
+.git:hover {
+  text-decoration: none;
+  color: rgb(0, 134, 0);
+}
+
+.git {
+  text-decoration: none;
+  color: rgb(0, 255, 0);
+}
+
+@font-face {
+  font-family: 'Consolas'; /*a name to be used later*/
+  src: url('fonts/consola.ttf'); /*URL to font*/
+}
+
+.support {
+  color: rgb(0, 255, 0);
+}
+
+.gits {
+  text-decoration: none;
+  color: rgb(0, 255, 0);
+}
+
+.gits:hover {
+  text-decoration: none;
+  color: rgb(0, 134, 0);
+}
+
+.back {
+  background-image: url(img/back1.png);
+}
